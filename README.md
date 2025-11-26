@@ -267,7 +267,7 @@ This project is open source and available for educational purposes.
 
 ## 👨‍💻 Author
 
-Developed as part of Semester 5 NLP coursework.
+Developed by Namashivayam S.
 
 ---
 
