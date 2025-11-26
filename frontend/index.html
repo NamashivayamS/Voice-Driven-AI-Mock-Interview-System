@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Mock Interview System</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Chart.js for visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Mock Interview System</h1>
+        
+        <button id="start-interview-btn" disabled>Start Interview</button>
+        <button id="refresh-questions-btn">Refresh Questions</button>
+
+        <div id="interview-status">Loading questions...</div>
+        
+        <div id="question-area">
+            <h2 id="question-category">Category: N/A</h2>
+            <p id="question-text" class="question-text">Press the button to get the first question.</p>
+        </div>
+
+        <div id="response-area" style="display: none;">
+            <!-- Add microphone selection dropdown -->
+            <div id="mic-selection" style="margin-bottom: 10px;">
+                <label for="microphone-select">Select Microphone:</label>
+                <select id="microphone-select">
+                    <option value="">Default Microphone</option>
+                </select>
+            </div>
+            
+            <button id="mic-control-btn" disabled>Start Speaking</button>
+            
+            <p id="mic-status" class="duration-text">Microphone Status: Idle</p>
+
+            <textarea id="candidate-response" placeholder="Transcript will appear here..." rows="5" readonly></textarea>
+        </div>
+
+        <hr>
+
+        <h2>Feedback Report</h2>
+        <div id="feedback-report" class="feedback-container">
+            <p class="initial-message">Your detailed scores and feedback will appear here after each response.</p>
+        </div>
+
+        <!-- Visualization Section -->
+        <div id="visualization-section" style="margin-top: 30px; display: none;">
+            <h2>Performance Visualization</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                <div style="flex: 1; min-width: 300px;">
+                    <canvas id="scoreChart"></canvas>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <canvas id="radarChart"></canvas>
+                </div>
+            </div>
+            <div style="margin-top: 20px;">
+                <canvas id="progressChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

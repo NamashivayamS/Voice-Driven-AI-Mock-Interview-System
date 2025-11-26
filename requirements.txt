@@ -1,0 +1,5 @@
+Flask
+numpy
+scipy
+sentence-transformers
+pandas # For easy handling of the CSV data

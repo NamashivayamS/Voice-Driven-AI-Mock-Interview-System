@@ -1,0 +1,634 @@
+[
+    {
+        "id": 0,
+        "category": "General",
+        "question": "Hello, welcome to your mock interview. Can you please start by introducing yourself?",
+        "answers": [
+            "I am a third-year data science student with a passion for natural language processing and machine learning. I have experience with Python, data analysis, and building NLP models.",
+            "I'm a data science student with a strong interest in AI and its applications. I have completed several projects in the field, including a sentiment analysis model and a text summarization tool."
+        ],
+        "keywords": [
+            "introduction",
+            "background",
+            "skills",
+            "experience",
+            "education"
+        ],
+        "explanation": "This is an icebreaker question to assess the candidate's self-presentation and communication skills."
+    },
+    {
+        "id": 1,
+        "category": "General",
+        "question": "Tell me about yourself.",
+        "answers": [
+            "Open-ended self introduction covering education, skills, and career goals."
+        ],
+        "keywords": [
+            "introduction",
+            "background",
+            "skills",
+            "experience"
+        ],
+        "explanation": "Interviewers expect a concise self-introduction highlighting education, strengths, and goals."
+    },
+    {
+        "id": 2,
+        "category": "General",
+        "question": "What are your strengths?",
+        "answers": [
+            "Analytical thinking",
+            "teamwork",
+            "communication",
+            "leadership"
+        ],
+        "keywords": [
+            "strengths",
+            "skills"
+        ],
+        "explanation": "Candidates should mention 2-3 strengths with examples from past experience."
+    },
+    {
+        "id": 3,
+        "category": "General",
+        "question": "What are your weaknesses?",
+        "answers": [
+            "Perfectionist",
+            "public speaking",
+            "time management"
+        ],
+        "keywords": [
+            "weaknesses"
+        ],
+        "explanation": "Candidates should mention a genuine weakness and how they are improving it."
+    },
+    {
+        "id": 4,
+        "category": "General",
+        "question": "Why do you want to work here?",
+        "answers": [
+            "I want to work at your company because I'm inspired by your recent work on [mention a specific project or product]. I believe my skills in [mention a relevant skill] would allow me to contribute meaningfully to your team's goals and mission."
+        ],
+        "keywords": [
+            "research",
+            "company culture",
+            "values",
+            "mission"
+        ],
+        "explanation": "Interviewers expect a thoughtful answer that demonstrates you've researched the company and are genuinely interested in the role."
+    },
+    {
+        "id": 5,
+        "category": "General",
+        "question": "Where do you see yourself in five years?",
+        "answers": [
+            "I see myself as a senior contributor in this field, taking on more challenging projects and mentoring junior developers. I believe my growth path aligns with the opportunities at your company."
+        ],
+        "keywords": [
+            "career goals",
+            "growth",
+            "ambition",
+            "long-term vision"
+        ],
+        "explanation": "This question assesses a candidate's ambition and long-term career goals."
+    },
+    {
+        "id": 6,
+        "category": "General",
+        "question": "How do you handle pressure or stressful situations?",
+        "answers": [
+            "I handle pressure by breaking down large tasks into smaller, manageable steps, and prioritizing them. For example, during my last project, we had a tight deadline, and I prioritized the most critical features first to ensure we met the deadline while maintaining quality."
+        ],
+        "keywords": [
+            "stress",
+            "pressure",
+            "prioritize",
+            "problem-solving",
+            "resilience"
+        ],
+        "explanation": "A good answer provides a specific example of a stressful situation and a strategy used to manage it effectively."
+    },
+    {
+        "id": 7,
+        "category": "General",
+        "question": "Describe a challenging situation you have faced and how you handled it.",
+        "answers": [
+            "In my previous project, we faced a technical roadblock that prevented us from moving forward. I took the initiative to research multiple solutions, collaborated with my team, and implemented a new approach that resolved the issue, allowing us to complete the project on time."
+        ],
+        "keywords": [
+            "challenge",
+            "problem",
+            "situation",
+            "solution",
+            "overcame"
+        ],
+        "explanation": "This behavioral question tests a candidate's problem-solving skills and composure using the STAR method (Situation, Task, Action, Result)."
+    },
+    {
+        "id": 8,
+        "category": "General",
+        "question": "Why are you leaving your current job?",
+        "answers": [
+            "I am looking for a new challenge that offers more opportunities for professional growth. I believe this position aligns better with my long-term career goals and will allow me to apply my skills in a new environment."
+        ],
+        "keywords": [
+            "new challenge",
+            "growth",
+            "career change"
+        ],
+        "explanation": "A positive and brief answer that focuses on professional growth is ideal. It is important to avoid speaking negatively about a previous employer."
+    },
+    {
+        "id": 9,
+        "category": "General",
+        "question": "How do you stay updated with industry trends?",
+        "answers": [
+            "I regularly read industry-specific blogs, participate in online forums like GitHub and Stack Overflow, and take online courses to learn new technologies. I also attend relevant webinars and conferences to stay informed about the latest developments."
+        ],
+        "keywords": [
+            "stay updated",
+            "learn",
+            "industry trends",
+            "self-learning",
+            "proactive"
+        ],
+        "explanation": "This question shows a candidate's proactiveness and passion for their field."
+    },
+    {
+        "id": 10,
+        "category": "General",
+        "question": "What motivates you?",
+        "answers": [
+            "I am motivated by a passion for problem-solving. I get a great deal of satisfaction from tackling complex challenges and seeing the results of my work, especially when it helps a team or a client succeed. I'm also motivated by a desire to continuously learn and improve my skills."
+        ],
+        "keywords": [
+            "motivation",
+            "driven",
+            "passion",
+            "learning",
+            "achieve"
+        ],
+        "explanation": "This question helps interviewers understand what drives the candidate."
+    },
+    {
+        "id": 101,
+        "category": "Aptitude",
+        "question": "A train travels 120 km in 2 hours. What is its average speed?",
+        "answers": [
+            "60 km/h",
+            "60 kilometers per hour"
+        ],
+        "keywords": [
+            "60",
+            "speed",
+            "average"
+        ],
+        "explanation": "Speed = Distance / Time = 120 / 2 = 60 km/h."
+    },
+    {
+        "id": 102,
+        "category": "Aptitude",
+        "question": "What is the probability of getting a head when tossing a fair coin?",
+        "answers": [
+            "0.5",
+            "50%"
+        ],
+        "keywords": [
+            "probability",
+            "coin",
+            "head"
+        ],
+        "explanation": "A fair coin has equal chance of head or tail = 1/2 = 0.5."
+    },
+    {
+        "id": 103,
+        "category": "Aptitude",
+        "question": "If the selling price is 120 and the cost price is 100, what is the profit percentage?",
+        "answers": [
+            "20%",
+            "20 percent"
+        ],
+        "keywords": [
+            "profit",
+            "20"
+        ],
+        "explanation": "Profit% = (Profit/Cost Price)*100 = (20/100)*100 = 20%."
+    },
+    {
+        "id": 201,
+        "category": "Technical",
+        "question": "What is the difference between list and tuple in Python?",
+        "answers": [
+            "Lists are mutable, tuples are immutable"
+        ],
+        "keywords": [
+            "mutable",
+            "immutable",
+            "list",
+            "tuple"
+        ],
+        "explanation": "Lists can be modified after creation, but tuples cannot."
+    },
+    {
+        "id": 202,
+        "category": "Technical",
+        "question": "What is normalization in DBMS?",
+        "answers": [
+            "Process of organizing data to reduce redundancy and improve integrity"
+        ],
+        "keywords": [
+            "normalization",
+            "redundancy",
+            "integrity"
+        ],
+        "explanation": "Normalization is the process of reducing redundancy and dependency in relational databases."
+    },
+    {
+        "id": 203,
+        "category": "Technical",
+        "question": "Explain polymorphism in OOP.",
+        "answers": [
+            "Polymorphism allows objects to take many forms",
+            "It refers to method overriding and overloading"
+        ],
+        "keywords": [
+            "polymorphism",
+            "OOP",
+            "overriding",
+            "overloading"
+        ],
+        "explanation": "Polymorphism is the ability of an object to take on many forms, achieved via method overriding and overloading."
+    },
+    {
+        "id": 301,
+        "category": "Software",
+        "question": "What is Agile methodology?",
+        "answers": [
+            "Agile is an iterative approach to software development",
+            "Agile focuses on iterative and incremental delivery"
+        ],
+        "keywords": [
+            "agile",
+            "iterative",
+            "scrum",
+            "incremental"
+        ],
+        "explanation": "Agile is an iterative approach to project management and software development that delivers value in small increments."
+    },
+    {
+        "id": 302,
+        "category": "Software",
+        "question": "What is the difference between black-box and white-box testing?",
+        "answers": [
+            "Black-box testing tests functionality, white-box tests internal structure"
+        ],
+        "keywords": [
+            "black-box",
+            "white-box",
+            "testing"
+        ],
+        "explanation": "Black-box testing focuses on inputs/outputs without knowing code, white-box testing involves internal code logic."
+    },
+    {
+        "id": 303,
+        "category": "Software",
+        "question": "Explain the concept of Continuous Integration (CI).",
+        "answers": [
+            "CI is the practice of merging code frequently to detect issues early"
+        ],
+        "keywords": [
+            "continuous integration",
+            "CI",
+            "automation"
+        ],
+        "explanation": "CI involves frequent integration of code into a shared repository to detect problems early with automated builds/tests."
+    },
+    {
+        "id": 11,
+        "category": "Software",
+        "question": "What is the difference between an array and a linked list?",
+        "answers": ["An array has fixed size and stores elements in contiguous memory; a linked list consists of nodes with data and references, allowing dynamic size."],
+        "keywords": ["array", "linked list", "fixed size", "dynamic size"],
+        "explanation": "An array provides direct access but has a fixed size, while a linked list is flexible in size but requires traversing nodes."
+    },
+    {
+        "id": 12,
+        "category": "Software",
+        "question": "Explain the time complexity of an algorithm.",
+        "answers": ["Time complexity measures the time an algorithm takes relative to its input size, expressed in Big O notation."],
+        "keywords": ["time complexity", "Big O notation", "efficiency"],
+        "explanation": "It helps in predicting how the runtime of an algorithm will scale with an increase in input size."
+    },
+    {
+        "id": 13,
+        "category": "Software",
+        "question": "Describe the difference between a binary search tree and a hash table.",
+        "answers": ["A binary search tree is hierarchical, maintaining order; a hash table maps keys to values for fast retrieval, without maintaining order."],
+        "keywords": ["binary search tree", "hash table", "data structures"],
+        "explanation": "A binary search tree is ordered, making it good for ordered operations, while a hash table provides near-constant time access."
+    },
+    {
+        "id": 14,
+        "category": "Software",
+        "question": "Explain the concept of recursion.",
+        "answers": ["Recursion is when a function calls itself to solve subproblems, with a base case to terminate recursion."],
+        "keywords": ["recursion", "function", "base case"],
+        "explanation": "Recursion can provide elegant solutions to problems that can be broken down into smaller, similar subproblems."
+    },
+    {
+        "id": 15,
+        "category": "Software",
+        "question": "What is Big O notation, and why is it important?",
+        "answers": ["Big O notation describes the upper bound of algorithm time complexity, important for comparing efficiency and growth rates."],
+        "keywords": ["Big O", "notation", "efficiency", "algorithms"],
+        "explanation": "It is a standard way to describe the performance of an algorithm, especially as the input size grows."
+    },
+    {
+        "id": 16,
+        "category": "Software",
+        "question": "How do you perform a binary search on a sorted array?",
+        "answers": ["Binary search divides the search interval in half, repeatedly comparing the middle element to the target."],
+        "keywords": ["binary search", "algorithm", "sorted array"],
+        "explanation": "This method is much faster than a linear search, especially for large datasets."
+    },
+    {
+        "id": 17,
+        "category": "Software",
+        "question": "What is a RESTful API?",
+        "answers": ["RESTful API is a web service implementation using HTTP methods to perform CRUD operations on resources, adhering to stateless, client-server architecture."],
+        "keywords": ["REST", "API", "web service", "HTTP"],
+        "explanation": "REST is an architectural style for designing networked applications, emphasizing a stateless client-server model."
+    },
+    {
+        "id": 18,
+        "category": "Software",
+        "question": "Explain the use of 'this' keyword in JavaScript.",
+        "answers": ["'this' in JavaScript refers to the execution context, varying based on function calling, global scope, or event handlers."],
+        "keywords": ["this", "JavaScript", "context"],
+        "explanation": "The value of 'this' is determined by how a function is called, not where it is defined."
+    },
+    {
+        "id": 19,
+        "category": "Software",
+        "question": "What is a closure in programming?",
+        "answers": ["A closure is a function with access to its outer scope variables even after the outer function has executed."],
+        "keywords": ["closure", "scope", "variables"],
+        "explanation": "Closures are useful for creating functions that remember their state."
+    },
+    {
+        "id": 20,
+        "category": "Software",
+        "question": "What are the differences between Python 2 and Python 3?",
+        "answers": ["Python 3 has print as a function, true division, Unicode support by default, and different syntax for exceptions, unlike Python 2."],
+        "keywords": ["Python 2", "Python 3", "differences"],
+        "explanation": "Python 3 is the modern version of the language with many improvements and is not backward compatible with Python 2."
+    },
+    {
+        "id": 21,
+        "category": "Software",
+        "question": "What is a database index, and why is it important?",
+        "answers": ["A database index speeds up data retrieval, similar to a book's index, improving query performance."],
+        "keywords": ["database", "index", "performance"],
+        "explanation": "Indexing creates a structured way to find data quickly without scanning the entire table."
+    },
+    {
+        "id": 22,
+        "category": "Software",
+        "question": "Explain the differences between SQL and NoSQL databases.",
+        "answers": ["SQL databases use structured query language with a predefined schema; NoSQL databases store schema-less data with flexible models."],
+        "keywords": ["SQL", "NoSQL", "databases", "schema"],
+        "explanation": "SQL databases are good for complex queries and structured data, while NoSQL databases are better for flexible and large-scale data."
+    },
+    {
+        "id": 23,
+        "category": "Software",
+        "question": "What is a foreign key in a database?",
+        "answers": ["A foreign key links two tables by referring to the primary key in another table, ensuring referential integrity."],
+        "keywords": ["foreign key", "primary key", "database"],
+        "explanation": "It helps to maintain relationships between tables and enforce data consistency."
+    },
+    {
+        "id": 24,
+        "category": "Software",
+        "question": "Describe the ACID properties in database transactions.",
+        "answers": ["ACID: Atomicity (indivisible transactions), Consistency (consistent state transitions), Isolation (independent transactions), Durability (persisted changes)."],
+        "keywords": ["ACID", "database", "transactions"],
+        "explanation": "These properties ensure that database transactions are processed reliably."
+    },
+    {
+        "id": 25,
+        "category": "Software",
+        "question": "What is Git, and how does it work?",
+        "answers": ["Git is a distributed version control system for tracking changes in source code, allowing collaborative work and branch management."],
+        "keywords": ["Git", "version control", "distributed"],
+        "explanation": "It allows multiple developers to work on a project simultaneously without overwriting each other's changes."
+    },
+    {
+        "id": 26,
+        "category": "Software",
+        "question": "What is a merge conflict, and how do you resolve it in Git?",
+        "answers": ["Merge conflicts occur when changes in different branches clash. Resolve by manually editing files and committing the result."],
+        "keywords": ["merge conflict", "Git", "resolve"],
+        "explanation": "This happens when Git cannot automatically reconcile changes from different branches."
+    },
+    {
+        "id": 27,
+        "category": "Software",
+        "question": "Describe the concept of microservices architecture.",
+        "answers": ["Microservices architecture consists of small, independent services communicating via APIs, each responsible for specific functionality, promoting scalability and maintenance."],
+        "keywords": ["microservices", "architecture", "APIs", "scalability"],
+        "explanation": "It's a way of designing software that allows for independent deployment and scaling of different parts of an application."
+    },
+    {
+        "id": 28,
+        "category": "Software",
+        "question": "What is a load balancer, and why is it used in web applications?",
+        "answers": ["A load balancer distributes incoming traffic across servers, ensuring resource efficiency, fault tolerance, and high availability."],
+        "keywords": ["load balancer", "traffic", "servers"],
+        "explanation": "It prevents any single server from becoming a bottleneck and ensures that the application remains responsive."
+    },
+    {
+        "id": 29,
+        "category": "Software",
+        "question": "Explain the importance of caching in web applications.",
+        "answers": ["Caching stores frequently accessed data for faster retrieval, reducing backend load, improving performance, and enhancing user experience."],
+        "keywords": ["caching", "performance", "backend"],
+        "explanation": "It reduces the need to re-fetch or re-compute data that doesn't change frequently."
+    },
+    {
+        "id": 30,
+        "category": "Software",
+        "question": "What is continuous integration (CI) and continuous delivery (CD)?",
+        "answers": ["CI involves frequent code integration and testing; CD extends CI by deploying changes to production automatically after testing."],
+        "keywords": ["CI", "CD", "continuous integration", "continuous delivery"],
+        "explanation": "These practices automate the software development process to deliver new code more quickly and reliably."
+    },
+    {
+        "id": 31,
+        "category": "Software",
+        "question": "What is Docker, and how does it work?",
+        "answers": ["Docker is a containerization platform packaging applications with dependencies, ensuring consistent environments across systems."],
+        "keywords": ["Docker", "containerization", "consistent environments"],
+        "explanation": "Docker allows for packaging applications and their dependencies into a container to ensure they run in any environment consistently."
+    },
+    {
+        "id": 32,
+        "category": "Software",
+        "question": "Explain the concept of container orchestration.",
+        "answers": ["Container orchestration automates deployment, scaling, and management of containers, optimizing resource use and handling failures."],
+        "keywords": ["container orchestration", "Kubernetes", "scaling", "automation"],
+        "explanation": "This is crucial for managing large-scale, containerized applications in production environments."
+    },
+    {
+        "id": 33,
+        "category": "Software",
+        "question": "What is Kubernetes, and why is it popular?",
+        "answers": ["Kubernetes is an open-source container orchestration platform automating deployment and management, known for its scalability and community support."],
+        "keywords": ["Kubernetes", "container management", "orchestration", "scaling"],
+        "explanation": "It is widely used for managing containerized workloads and services."
+    },
+    {
+        "id": 34,
+        "category": "Software",
+        "question": "What is infrastructure as code (IaC)?",
+        "answers": ["IaC manages infrastructure using code, ensuring consistency, automation, and version control in deployments."],
+        "keywords": ["IaC", "infrastructure as code", "automation", "DevOps"],
+        "explanation": "IaC is a core practice of DevOps that allows for predictable and reproducible infrastructure deployments."
+    },
+    {
+        "id": 401,
+        "category": "Data Science",
+        "question": "What is the difference between supervised and unsupervised learning?",
+        "answers": [
+            "Supervised learning uses labeled datasets to train models, while unsupervised learning uses unlabeled data to find patterns and relationships without guidance."
+        ],
+        "keywords": [
+            "supervised learning",
+            "unsupervised learning",
+            "labeled data",
+            "unlabeled data"
+        ],
+        "explanation": "This is a fundamental concept to test a candidate's basic understanding of machine learning paradigms."
+    },
+    {
+        "id": 402,
+        "category": "Data Science",
+        "question": "Explain what a confusion matrix is.",
+        "answers": [
+            "A confusion matrix is a table that is used to evaluate the performance of a classification model. It shows the number of correct and incorrect predictions made by the model compared to the actual outcomes."
+        ],
+        "keywords": [
+            "confusion matrix",
+            "evaluation metrics",
+            "classification",
+            "machine learning"
+        ],
+        "explanation": "A confusion matrix is a key tool for evaluating classification models, and understanding it demonstrates a practical knowledge of model performance."
+    },
+    {
+        "id": 403,
+        "category": "Data Science",
+        "question": "What is a p-value in statistics?",
+        "answers": [
+            "The p-value is a statistical measure that helps determine the significance of your results. It is the probability of obtaining observed results if the null hypothesis is true."
+        ],
+        "keywords": [
+            "p-value",
+            "statistics",
+            "hypothesis testing",
+            "null hypothesis"
+        ],
+        "explanation": "This question tests a candidate's foundational knowledge of statistical concepts used in data analysis and A/B testing."
+    },
+    {
+        "id": 404,
+        "category": "Data Science",
+        "question": "Describe the concept of 'bias-variance tradeoff'.",
+        "answers": [
+            "The bias-variance tradeoff is a core problem in supervised machine learning. It refers to the conflict in a model's ability to minimize two sources of error: bias (underfitting) and variance (overfitting)."
+        ],
+        "keywords": [
+            "bias",
+            "variance",
+            "tradeoff",
+            "overfitting",
+            "underfitting"
+        ],
+        "explanation": "This is a key concept that demonstrates a deeper understanding of model optimization and generalization."
+    },
+    {
+        "id": 405,
+        "category": "Data Science",
+        "question": "How do you handle missing values in a dataset?",
+        "answers": [
+            "I would handle missing data by either dropping the rows or columns with a large number of missing values, or by imputing them using a method like mean, median, mode, or a more advanced technique like K-nearest neighbors."
+        ],
+        "keywords": [
+            "missing values",
+            "data preprocessing",
+            "imputation",
+            "data cleaning"
+        ],
+        "explanation": "Data cleaning is a critical step in any data science project. This question assesses a candidate's practical skills in data preparation."
+    },
+    {
+        "id": 406,
+        "category": "Data Science",
+        "question": "Explain what a decision tree is and how it works.",
+        "answers": [
+            "A decision tree is a supervised machine learning algorithm that uses a tree-like structure to make decisions. It splits the data into branches based on features, with the goal of creating a model that predicts the target variable."
+        ],
+        "keywords": [
+            "decision tree",
+            "supervised learning",
+            "algorithm",
+            "tree-based model"
+        ],
+        "explanation": "This is a common and intuitive algorithm. Understanding it shows a candidate can explain complex concepts clearly."
+    },
+    {
+        "id": 407,
+        "category": "Data Science",
+        "question": "What are regularization techniques and why are they used?",
+        "answers": [
+            "Regularization is a technique used to prevent overfitting in machine learning models. It works by adding a penalty to the loss function, which discourages the model from becoming too complex."
+        ],
+        "keywords": [
+            "regularization",
+            "overfitting",
+            "L1 regularization",
+            "L2 regularization",
+            "loss function"
+        ],
+        "explanation": "This question tests a candidate's knowledge of advanced concepts for improving model performance."
+    },
+    {
+        "id": 408,
+        "category": "Data Science",
+        "question": "Explain the concept of 'feature engineering'.",
+        "answers": [
+            "Feature engineering is the process of using domain knowledge to create new features from raw data that help machine learning models perform better. It involves transforming and creating variables to improve predictive power."
+        ],
+        "keywords": [
+            "feature engineering",
+            "features",
+            "data transformation",
+            "domain knowledge"
+        ],
+        "explanation": "This is a critical skill for any data scientist, and it demonstrates practical experience with real-world data."
+    },
+    {
+        "id": 409,
+        "category": "Data Science",
+        "question": "What is the curse of dimensionality?",
+        "answers": [
+            "The curse of dimensionality refers to the various problems that arise when dealing with high-dimensional data. As the number of features increases, the amount of data needed to form a reliable model grows exponentially."
+        ],
+        "keywords": [
+            "dimensionality",
+            "curse of dimensionality",
+            "high-dimensional data",
+            "features"
+        ],
+        "explanation": "A key concept in high-dimensional machine learning that highlights the challenges of working with large numbers of features."
+    }
+]
